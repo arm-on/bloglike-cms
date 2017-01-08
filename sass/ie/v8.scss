@@ -1,0 +1,81 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Elevation by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* List */
+
+	ul {
+		&.labeled-icons {
+			li {
+				.icon {
+					-ms-behavior: url('css/ie/PIE.htc');
+				}
+			}
+		}
+	}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		&.alt {
+			border: solid 2px $color-border;
+		}
+	}
+	
+/* Icon */
+
+	.icon {
+		&.major {
+			-ms-behavior: url('css/ie/PIE.htc');
+		}
+	}
+	
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select {
+		line-height: $size-element-height;
+	}
+
+/* Wrapper */
+
+	.wrapper {
+		&.style2 {
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			.button {
+				&.alt {
+					border: solid 2px #fff;
+				}
+			}
+		}
+	}
+
+/* Header */
+
+	.dropotron {
+		&.level-0 {
+			margin-top: 0;
+			
+			&:before {
+				display: none;
+			}
+		}
+	}
+	
+/* Banner */
+
+	#banner {
+		background-image: url('images/banner.png');
+	}

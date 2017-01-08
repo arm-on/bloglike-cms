@@ -1,0 +1,160 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Elevation by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+/* Section/Article */
+
+	header {
+		&.major {
+			overflow-x: hidden;
+
+			> :first-child {
+				display: inline-block;
+				margin: 0;
+				padding: 0 1em;
+				position: relative;
+				
+				&:before,
+				&:after {
+					background-position: right center;
+					background-size: 300% 20px;
+					display: block;
+					height: 100%;
+					position: absolute;
+					top: 0;
+					width: 200%;
+				}
+				
+				&:before {
+					left: 100%;
+				}
+				
+				&:after {
+					right: 100%;
+				}
+				
+				& + p {
+					margin-top: $size-element-margin;
+				}
+			}
+		}
+	}
+
+/* Box */
+
+	.box {
+		padding: 3em;
+
+		&.special {
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+			padding: 4em 3em;
+			width: 35em;
+		}
+	}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 4em 0;
+	}
+
+/* Header */
+
+	#skel-layers-wrapper {
+		padding-top: 0;
+	}
+
+	#header {
+		display: none;
+	}
+
+/* Banner */
+
+	#banner {
+		padding: 8em 2em;
+	}
+	
+/* Contact */
+
+	#contact {
+		.actions {
+			text-align: center;
+		}
+		
+		.labeled-icons {
+			border-top: solid 1px $color-border;
+			margin: 2em 0 0 0;
+			padding: 4em 0 0 0;
+		}
+	}
+		
+/* Layers */
+
+	#navButton {
+		.toggle {
+			@include icon;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			
+			&:before {
+				content: '\f0c9';
+				background: rgba(144,144,144,0.65);
+				color: #fff;
+				display: block;
+				font-size: 16px;
+				height: 2.25em;
+				left: 0.5em;
+				line-height: 2.25em;
+				position: absolute;
+				text-align: center;
+				top: 0.5em;
+				width: 3.5em;
+			}
+		}
+	}
+
+	#navPanel {
+		background: darken($color-accent3-bg, 8);
+		color: $color-accent3-fg;
+
+		.link {
+			border-bottom: 0;
+			border-top: solid 1px rgba(255,255,255,0.05);
+			color: #888;
+			display: block;
+			height: 44px;
+			line-height: 44px;
+			padding: 0 1em 0 1em;
+			text-decoration: none;
+		
+			&:first-child {
+				border-top: 0;
+			}
+			
+			&.depth-0 {
+				color: #fff;
+			}
+			
+			.indent-1 { display: inline-block; width: 1em; }
+			.indent-2 { display: inline-block; width: 2em; }
+			.indent-3 { display: inline-block; width: 3em; }
+			.indent-4 { display: inline-block; width: 4em; }
+			.indent-5 { display: inline-block; width: 5em; }
+		}
+	}

@@ -1,0 +1,106 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Elevation by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+	
+	html, body {
+		min-width: 320px;
+	}
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+/* List */
+
+	ul {
+		&.actions {
+			margin: 0 0 $size-element-margin 0;
+			
+			li {
+				display: block;
+				padding: ($size-element-margin * 0.5) 0 0 0;
+				text-align: center;
+				width: 100%;
+				
+				&:first-child {
+					padding-top: 0;
+				}
+				
+				> * {
+					width: 100%;
+					margin: 0 !important;
+					
+					&.icon {
+						&:before {
+							margin-left: -2em;
+						}
+					}
+				}
+			}
+			
+			&.small {
+				li {
+					padding: ($size-element-margin * 0.25) 0 0 0;
+
+					&:first-child {
+						padding-top: 0;
+					}
+				}
+			}
+		}
+		
+		&.menu {
+			li {
+				border: 0;
+				display: block;
+				margin: 1em 0 0 0;
+				padding: 0;
+			}
+		}
+	}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		padding: 0;
+	}
+
+/* Box */
+
+	.box {
+		padding: 2em 1em;
+		
+		&.special {
+			padding: 2em 1em;
+			width: 100%;
+		}
+	}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 3em 1em;
+	}
+		
+/* Banner */
+
+	#banner {
+		background-size: 540px 108px;
+		padding: 7em 2em 6em 2em;
+	}
+
+/* Contact */
+
+	#contact {
+		padding-top: 1em;
+	}
