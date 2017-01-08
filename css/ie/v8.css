@@ -1,0 +1,60 @@
+/*
+	Elevation by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* List */
+
+	ul.labeled-icons li .icon {
+		-ms-behavior: url("css/ie/PIE.htc");
+	}
+
+/* Button */
+
+	input[type="submit"].alt,
+	input[type="reset"].alt,
+	input[type="button"].alt,
+	.button.alt {
+		border: solid 2px #dddddd;
+	}
+
+/* Icon */
+
+	.icon.major {
+		-ms-behavior: url("css/ie/PIE.htc");
+	}
+
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select {
+		line-height: 2.75em;
+	}
+
+/* Wrapper */
+
+	.wrapper.style2 input[type="submit"].alt,
+	.wrapper.style2 input[type="reset"].alt,
+	.wrapper.style2 input[type="button"].alt,
+	.wrapper.style2 .button.alt {
+		border: solid 2px #fff;
+	}
+
+/* Header */
+
+	.dropotron.level-0 {
+		margin-top: 0;
+	}
+
+		.dropotron.level-0:before {
+			display: none;
+		}
+
+/* Banner */
+
+	#banner {
+		background-image: url("images/banner.png");
+	}

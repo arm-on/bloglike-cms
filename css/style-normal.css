@@ -1,0 +1,45 @@
+/*
+	Elevation by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+/* Section/Article */
+
+	header.major > :first-child:before, header.major > :first-child:after {
+		background-size: 75px 20px;
+		width: 75px;
+	}
+
+/* Box */
+
+	.box {
+		padding: 1.75em 1.5em;
+	}
+
+		.box.special {
+			padding: 3em 2.25em;
+		}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 5em 0;
+	}
+
+/* Banner */
+
+	#banner {
+		background-size: 900px 180px;
+		padding: 10em 0 8em 0;
+	}
+
+		#banner h2 {
+			font-size: 2.5em;
+		}

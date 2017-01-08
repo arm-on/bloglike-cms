@@ -1,0 +1,95 @@
+/*
+	Elevation by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+	html, body {
+		min-width: 320px;
+	}
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+/* List */
+
+	ul.actions {
+		margin: 0 0 2em 0;
+	}
+
+		ul.actions li {
+			display: block;
+			padding: 1em 0 0 0;
+			text-align: center;
+			width: 100%;
+		}
+
+			ul.actions li:first-child {
+				padding-top: 0;
+			}
+
+			ul.actions li > * {
+				width: 100%;
+				margin: 0 !important;
+			}
+
+				ul.actions li > *.icon:before {
+					margin-left: -2em;
+				}
+
+		ul.actions.small li {
+			padding: 0.5em 0 0 0;
+		}
+
+			ul.actions.small li:first-child {
+				padding-top: 0;
+			}
+
+	ul.menu li {
+		border: 0;
+		display: block;
+		margin: 1em 0 0 0;
+		padding: 0;
+	}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		padding: 0;
+	}
+
+/* Box */
+
+	.box {
+		padding: 2em 1em;
+	}
+
+		.box.special {
+			padding: 2em 1em;
+			width: 100%;
+		}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 3em 1em;
+	}
+
+/* Banner */
+
+	#banner {
+		background-size: 540px 108px;
+		padding: 7em 2em 6em 2em;
+	}
+
+/* Contact */
+
+	#contact {
+		padding-top: 1em;
+	}

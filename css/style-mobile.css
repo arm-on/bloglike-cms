@@ -1,0 +1,95 @@
+/*
+	Elevation by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+	h2 {
+		font-size: 1.25em;
+		line-height: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+
+	h4 {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+
+/* Section/Article */
+
+	header.major {
+		margin-bottom: 3em;
+	}
+
+		header.major > :first-child {
+			padding: 0 0.5em;
+		}
+
+			header.major > :first-child:before, header.major > :first-child:after {
+				background-size: 300% 10px;
+			}
+
+		header.major p {
+			font-size: 1em;
+		}
+
+/* Box */
+
+	.box {
+		padding: 2em;
+	}
+
+		.box.special {
+			padding: 2em;
+			width: 28em;
+		}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 3em 2em;
+	}
+
+/* Banner */
+
+	#banner {
+		background-size: 675px 135px;
+		padding: 5em 2em 4em 2em;
+	}
+
+		#banner h2 {
+			font-size: 2em;
+		}
+
+		#banner p {
+			font-size: 1.25em;
+		}
+
+/* Main */
+
+	#main {
+		padding: 2em 0;
+	}
+
+/* Footer */
+
+	#footer {
+		padding: 2em 0;
+	}
+
+		#footer .copyright li {
+			border-left: 0;
+			display: block;
+			margin-left: 0;
+			padding-left: 0;
+		}

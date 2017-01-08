@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="300" viewBox="0 0 1500 300" zoomAndPan="disable">
+
+    <style type="text/css"><![CDATA[
+		polygon {
+			fill: rgba(255,255,255,0.035);
+		}
+    ]]></style>
+    
+	<!-- Main -->
+		<polygon points="0,0 275,200 400,100 525,200 750,50 1100,250 1500,0 1500,300 0,300" />
+
+	<!-- Highlights -->
+		<polygon points="0,0 175,300 410,300" />
+		<polygon points="750,50 1100,250 900,365" />
+
+</svg>
