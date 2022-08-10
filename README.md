@@ -1,7 +1,7 @@
 # BlogLike Content Management System
 
 A complete content management system for creating blogs which uses PHP as its backend, and the front-end is made with HTML, CSS and Javascript.
-More Specifically, it uses LESS as its CSS framework, and JQuery and Bootstrap are also used to enhance the user experience.
+More Specifically, it uses LESS as its CSS framework, and JQuery and Bootstrap are also used to enhance the user experience. A short-video of the CMS is also available [here](https://mega.nz/file/GeJm0JDS#claukb6oZMG4TemRlP2RptpzfrTmDU-TJ9LXfMR1QbQ).
 
 Note: I created this CMS as a final project for the Database Fundamentals course when I was a second-year bachelor's student.
 
