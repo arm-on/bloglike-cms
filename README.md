@@ -3,6 +3,8 @@
 A complete content management system for creating blogs which uses PHP as its backend, and the front-end is made with HTML, CSS and Javascript.
 More Specifically, it uses LESS as its CSS framework, and JQuery and Bootstrap are also used to enhance the user experience.
 
+Note: I created this CMS as a final project for the Database Fundamentals course when I was a second-year bachelor's student.
+
 # Features
 
 One can do all of the following things using the BlogLike CMS:
@@ -22,4 +24,3 @@ One can do all of the following things using the BlogLike CMS:
 Bloglike requires you to have PHP 5.2 or higher installed on your host. First of all, you have to download the ["BlogLikeCMSv1.0.zip"](https://github.com/arm-on/bloglike-cms/blob/master/BlogLikeCMSv1.0.zip) file and extract it somewhere. While installing the system, please set the permissions of all files belonging to the system to 777, and revert their permission back to 644 after the installation is finished. You will also need to have MySQL installed (the version is not important since it works with all of them).
 
 Assuming that you have copied all of the files into some directory like `localhost/bloglike`, you need to open the same directory on your browser. The system will redirect you to the install folder (e.g., `localhost/bloglike/install`). Continue the installation process to the last step where you feed the database username and password, the host name, and the admin user credentials to the system. After the installation, remove the `install` folder. Then, you can visit the home page at `localhost/bloglike` or the admin panel at `localhost/bloglike/private`. 
-
